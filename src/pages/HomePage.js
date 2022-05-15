@@ -1,9 +1,10 @@
 import React from "react"
-import UsersList from "../components/usersList"
-import UserContextProvider from "../context/user-context"
+import UserList from "../components/user-list/UserList"
+import SearchUsers from "../components/user-list/SearchUsers"
 const HomePage = ()=>(
-    <UserContextProvider>
-      <UsersList/>
-    </UserContextProvider>
+  <div>
+    <SearchUsers/>
+    <UserList/>
+  </div>
 )
 export default HomePage

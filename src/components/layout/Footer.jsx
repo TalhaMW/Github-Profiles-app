@@ -3,7 +3,7 @@ import React from "react";
 let year = new Date().getFullYear();
 console.log(year);
 const Footer = () => (
-  <footer className=" pt-2">
+  <footer className=" pt-8">
     <div className="flex flex-col items-center">
       <svg
         className="h-14 w-14 mb-2"

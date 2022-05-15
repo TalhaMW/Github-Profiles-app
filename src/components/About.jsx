@@ -2,7 +2,9 @@ import React from "react"
 import { FaLinkedin } from "react-icons/fa";
 import {FaGithub} from "react-icons/fa"
 import { FaFacebook } from "react-icons/fa";
-const About = ()=>(
+
+const About = ()=>{
+    return(
     <div>
     <div>
         <div className="leading-tight title text-5xl text-slate-200 font-semibold pb-4">
@@ -28,5 +30,5 @@ const About = ()=>(
    </a>
    </div>
     </div>
-)
+)}
 export default About;
